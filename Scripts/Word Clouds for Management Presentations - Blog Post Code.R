@@ -173,11 +173,6 @@ pal=pal[-(1:3)]
 colors=brewer.pal(8, "Dark2")
 
 
-# remove numbers looks to be broken
-# indeed - should be fixed soon
-# https://github.com/quanteda/quanteda/issues/1909
-
-
 tf_dfm <- master_cleaning_function(data_f = raw_data, 
                                      text_field_f = "Winemakers_Notes", 
                                      dfm_method_f = 'term_freq')
