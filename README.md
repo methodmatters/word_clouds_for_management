@@ -1,4 +1,4 @@
-# word_clouds_for_management
+# Data and Code: Word Clouds for Management
 
 This repository contains the data and code for my blog post about making word clouds for management presentations:
 
